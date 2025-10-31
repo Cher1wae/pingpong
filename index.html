@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>KeyPress Challenge</title>
-
+<link rel="stylesheet" href="./style.css">
 </head>
 <body>
   <h1>⚡ KeyPress Challenge ⚡</h1>
@@ -19,5 +19,13 @@
     <button id="start-btn">Start Game</button>
     <div id="message" class="game-over"></div>
   </div>
+
+  <!-- ==== SOUND EFFECTS ==== -->
+  <audio id="sound-correct" src="https://actions.google.com/sounds/v1/cartoon/wood_plank_flicks.ogg" preload="auto"></audio>
+  <audio id="sound-wrong" src="https://actions.google.com/sounds/v1/cartoon/clang_and_wobble.ogg" preload="auto"></audio>
+  <audio id="sound-fail" src="https://actions.google.com/sounds/v1/alarms/beep_short.ogg" preload="auto"></audio>
+  <audio id="sound-gameover" src="https://actions.google.com/sounds/v1/cartoon/clang_and_wobble.ogg" preload="auto"></audio>
+
+<script src="./script.js"></script>
 </body>
 </html>
